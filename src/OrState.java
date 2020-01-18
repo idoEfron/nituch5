@@ -1,4 +1,4 @@
-public class ComplexState extends State {
+public class OrState extends State {
 //    // THIS IS THE CURRENT STATE
 //    public State state;
 //
