@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String [] args)
     {
-        System.out.println("hello world");
+        AirConditioner airConditioner = new AirConditioner();
+        airConditioner.turnOn();
+        airConditioner.setR_temp(27);
     }
 }
