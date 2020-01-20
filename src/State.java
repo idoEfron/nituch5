@@ -32,4 +32,5 @@ public abstract class State {
     public void transfer(int x){
         System.out.print("error");
     }
+
 }

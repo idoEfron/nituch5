@@ -3,4 +3,9 @@ public class Cooling extends State {
     public Cooling(Operation operation) {
         this.operation = operation;
     }
+
+    @Override
+    public void entry(){
+        System.out.println("OPERATION-COOLING");
+    }
 }

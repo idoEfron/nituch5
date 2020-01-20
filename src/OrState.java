@@ -13,4 +13,9 @@ public class OrState extends State {
     public State getState(){
         return this.state;
     }
+
+    protected void setR_temp() {
+    }
+    protected void setC_temp() {
+    }
 }
